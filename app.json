@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Traditional ToDo",
+    "slug": "traditionaltodo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/main.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/main.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.traditionaltodo.app"
+    },
+    "web": {
+      "favicon": "./assets/main.png"
+    }
+  }
+}
